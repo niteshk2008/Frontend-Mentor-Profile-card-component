@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.Container{
+    background-color: hsl(185, 75%, 39%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
+.Card{
+    box-shadow: 0px 0px 310px hsl(227, 10%, 46%);
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 320px;
+    background-color: white;
+}
+.Card-Background img{
+    width: 100%;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Card-Logo{
+    text-align: center;
+}
+.Card-Logo img{
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: -57px;
+}
+.Main-Content h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+.Main-Content{
+    margin-top: 10px;
+}
+.Main-Content span{
+    margin-left: 10px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+.Main-Content p{
+    padding-top: 8px;
+    font-size: small;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 1px;
+}
+.Num ul{
+    list-style: none;
+}
+.Testimonials{
+    margin-top: 20px;
+    border-top: 1px solid grey;
+    height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.List-Items{
+    font-weight: 700;
+    font-size: large;
+}
+.Status{
+    font-weight: 400;
+    color:  hsl(0, 0%, 59%);
+    font-size: small;
+}
